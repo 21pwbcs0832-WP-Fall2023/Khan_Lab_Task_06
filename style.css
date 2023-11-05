@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+.font-h2{
+    font-size: 2rem;
+}
+.container {
+    padding-top: 3rem;
+}
+
+.book-list, .add-book, .search-books {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+#add-book-form input{
+    display: blocks;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(56, 53, 53);
+    background-color: rgb(239, 229, 229);
+}
+.search-books input{
+    display: blocks;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(56, 53, 53);
+    background-color: rgb(239, 229, 229);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 5px 7px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
